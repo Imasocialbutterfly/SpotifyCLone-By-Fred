@@ -40,7 +40,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children, songs }) => {
   return (
     <div className={twMerge(`
       flex 
-      h-full
+      h-screen
     `, 
       player.activeId && "h-[cal(100%-80px)]"
       )}>
